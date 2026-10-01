@@ -3,10 +3,18 @@
 # You are going to write a very simple program:
 
 # Ask a user to enter two numbers (one per input)
+try:
+ Number1= int(input("Please enter a number"))
+ Number2= int(input("Please enter a number"))
+
+except:
+ print("That is not a number")
+
 
 # multiply those numbers together
-
+Multiplied_Number =int({Number1} * {Number2})
 # print out the result
+print({Multiplied_Number})
 
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
