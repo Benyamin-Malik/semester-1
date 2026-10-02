@@ -15,7 +15,7 @@ try:
  Final_yearly_value=Yearly_Contribution+Yearly_Intrest
  print(f"With intrest you will save £{Final_yearly_value:.2f}")
 except:
-  print("please enter a whole number")
+  print("Invalid amount")
 
 
 
