@@ -9,11 +9,15 @@ print(f"Welcome to LeedsBank's savings calculator {name}!")
 
 try:
  Monthly_Contribution=int(input("Please enter your montly savings amount:"))
+ Yearly_Contribution=(float((Monthly_Contribution)*12))
+ print(f"You will save £{Yearly_Contribution:.2f} each year")
+ Yearly_Intrest=Yearly_Contribution*0.008
+ Final_yearly_value=Yearly_Contribution+Yearly_Intrest
+ print(f"With intrest you will save £{Final_yearly_value:.2f}")
 except:
- print("Please enter a number")
+  print("please enter a whole number")
 
-Yearly_Contribution=((Monthly_Contribution)*12)
-print(f"You will save {Yearly_Contribution} each year")
+
 
 # Ask the user to input an amount they want  to save every month - this should be an integer.
 # Validate that they have entered an integer.
