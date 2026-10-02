@@ -4,10 +4,18 @@ By submitting this code you are declaring that all work in this file, other than
 Name: 
 """
 
-name = input("What is your name? ")
+name = input("What is your name?")
 print(f"Welcome to LeedsBank's savings calculator {name}!")
 
-# Ask the user to input an amount they want to save every month - this should be an integer.
+try:
+ Monthly_Contribution=int(input("Please enter your montly savings amount:"))
+except:
+ print("Please enter a number")
+
+Yearly_Contribution=((Monthly_Contribution)*12)
+print(f"You will save {Yearly_Contribution} each year")
+
+# Ask the user to input an amount they want  to save every month - this should be an integer.
 # Validate that they have entered an integer.
 
 
