@@ -11,15 +11,15 @@ You can complete this task on the worksheet pdf if you prefer.
 |     Command                 |     Explanation    |
 |-----------------------------|--------------------|
 |     pwd                     | shows the current location of the terminal |
-|     ls                      | |
-|     cd directory_name       | |
-|     cd ..                   | |
-|     cd -                    | |
-|     mkdir directory_name    | |
-|     touch filename          | |
-|     git status              | |
-|     git add -A              | |
-|     git commit -m ""        | |
-|     git push                | |
-|     git pull                | |
+|     ls                      | List all files and directories in current directory|
+|     cd directory_name       |moves you into the directory called directory_name |
+|     cd ..                   | Moves you up on directory from where you are 
+|     cd -                    |Moves you to the directory you where previously in | 
+|     mkdir directory_name    |makes a directory called directory_name |
+|     touch filename          |makes a file called filename |
+|     git status              |tells you whether changes are staged for a commit and tell you commands to stage and commit changes. |
+|     git add -A              |tells github that you want to save all changes.It hasnt saved it yet,it just knows what to save |
+|     git commit -m ""        |Creates a snapshot of where you where in the momment . lets you send a message saying what you've done|
+|     git push                | sends the work you've done to gits server essentially saving your work|
+|     git pull                |data send from the servers to your session.it gives you the changes made by others working on the repository |
 
