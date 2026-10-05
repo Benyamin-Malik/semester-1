@@ -8,3 +8,6 @@ from pprint import pprint
 # Pretty-print the data structure
 
 # Display details of one album recorded by a specific artist
+
+Jackson_Songs =["Bad","Thriller","Dont stop till you get enough"]
+print(Jackson_Songs)
