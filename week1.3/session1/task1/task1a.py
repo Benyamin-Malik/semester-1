@@ -2,10 +2,12 @@
 
 i = 0
 
-while i < 5:
+while i <= 20:
 	print(i)
 	i = i + 1
-
+	if i%4==0:
+         print(f"{i} is amultiple of 4")
+    
 # Modify the loop to print numbers up to and including 20
 
 # Add further logic so that a message is printed if the number is a multiple of 4

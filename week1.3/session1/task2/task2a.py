@@ -2,8 +2,12 @@
 
 k = 2
 while True:
-    k = 2 * k 
+    k=k*2
+    k<200
     print(k)
+    
+    
+   
     
 
 # As written this is an infinite loop.
