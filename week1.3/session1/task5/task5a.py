@@ -3,7 +3,8 @@
 course = "computer science"
 
 for ch in course:
-	print(ch)
+            e = sorted(list(course))
+print(e)
 
 
 # create a list data structure of the characters from the course string
