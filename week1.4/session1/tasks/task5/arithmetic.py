@@ -7,55 +7,60 @@
 
 def addition(num1, num2):
     return num1 + num2
+result=addition(3,4)
+print("7")
 
 
 def subtraction(num1, num2):
     return num1 - num2
+result=addition(3,4)
+print("-1")
 
 
 def multiplication(num1, num2):
     return num1 * num2
+result=addition(3,4)
+print("12")
 
 
-def division(num1, num2):
-    if num2 == 0:
-        return "Error: cannot divide by zero"
-    else:
-        return num1 / num2
+#def division(num1, num2):
+   # if num2 == 0:
+ #       return "Error: cannot divide by zero"
+  #  else:
+   #     return num1 / num2
+#
 
-
-def run_program():
-
+#ef run_program():
     # Ask user for two numbers
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
+   # num1 = float(input("Enter the first number: "))
+    #num2 = float(input("Enter the second number: "))
 
     # Ask user for the desired operation
-    print("Select an operation:")
-    print("1. Addition (+)")
-    print("2. Subtraction (-)")
-    print("3. Multiplication (*)")
-    print("4. Division (/)")
-    operation = int(input("Enter your choice (1-4): "))
+    #print("Select an operation:")
+    #print("1. Addition (+)")
+    #print("2. Subtraction (-)")
+    #print("3. Multiplication (*)")
+    #print("4. Division (/)")
+    #operation = int(input("Enter your choice (1-4): "))
 
-    match operation:
-        case 1:
-            result = None    # complete this line of code
-            print(f"The result of addition is: {result}")
-        case 2:
-            result = None    # complete this line of code
-            print(f"The result of subtraction is: {result}")
-        case 3:
-            result = None   # complete this line of code
-            print(f"The result of multiplication is: {result}")
-        case 4:
-            result = None    # complete this line of code
-            print(f"The result of division is: {result}")
-        case _:
-            print("Undefined operation")
+    #match operation:
+     #   case 1:
+     #       result = None    # complete this line of code
+     #       print(f"The result of addition is: {result}")
+     #   case 2:
+     #       result = None    # complete this line of code
+     #       print(f"The result of subtraction is: {result}")
+     #   case 3:
+     #       result = None   # complete this line of code
+     #       print(f"The result of multiplication is: {result}")
+     #   case 4:
+     #       result = None    # complete this line of code
+     #       print(f"The result of division is: {result}")
+    #    case _:
+    #        print("Undefined operation")
+#
 
-
-run_program()
+#run_program()
 
 
 # In the function run_program, they are more than one tasks involved:
