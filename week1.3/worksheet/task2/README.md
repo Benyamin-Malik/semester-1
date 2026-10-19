@@ -1,6 +1,9 @@
 # Task 2 – PORTFOLIO – Traffic light simulation
 
-A road crossing is controlled by a traffic light. A red light means traffic must stop; a green light means traffic may go. The traffic light shows red and amber when it is about to change to green, and amber when it is about to change to red.
+A road 
+
+
+ is controlled by a traffic light. A red light means traffic must stop; a green light means traffic may go. The traffic light shows red and amber when it is about to change to green, and amber when it is about to change to red.
 The traffic light passes through a repeating set of states, with a fixed duration, as defined by the dictionary below:
 
     states = {"red":4, "red_amber":3, "green":5, "amber":3}
