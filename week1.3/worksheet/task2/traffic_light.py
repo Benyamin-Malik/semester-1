@@ -19,8 +19,8 @@ for systime in range(maxtime):
     else:
       state="amber"
     print(f"Time {systime:04} State {state}")
-    systime=systime +1
+    
     
 # Simulate the traffic light system up to time=maxtime in 1-second steps
 
-# At the end of each step you should output the time and state using the statement on line 14
+# At the end of each step you should output the time and state using the statement on line 14aaaaa
