@@ -7,7 +7,7 @@ class Person:
     A Person, with a name and a date of birth.
 
     """
-def __init__(self, name:str,birth:date):
+    def __init__(self, name:str,birth:date):
      """
      creates a person,with a name and a date of birth
      """
@@ -27,16 +27,17 @@ def __init__(self, name:str,birth:date):
     
 
    # Implement methods initials() and is_birthday() here
-def initials(self):
+    def initials(self):
       """Return the capitalised initials of the name."""
       initials = ""
       for word in self.name.split():
          initials += word[0].upper()
       return initials
 
-def is_birthday(self):
+    def is_birthday(self):
       """Check whether today is the person's birthday."""
       today = date.today()
       return today.month == self.birth.month and today.day == self.birth.day
+
 
 
