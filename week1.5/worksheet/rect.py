@@ -38,10 +38,6 @@ class Rectangle:
              """
              return ((2*self.width)+(2*self.height))
 
-a=Rectangle(2,2)
-print(a.area())
-print(a.perimeter())
-print(a.is_square())
 
 #identation is very annoying.
       
