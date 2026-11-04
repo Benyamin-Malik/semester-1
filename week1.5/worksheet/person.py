@@ -33,8 +33,8 @@ class Person:
     def is_birthday(self):
      today=date.today()
      if today.strftime("%Y%m%d") == self.birth.strftime("%Y%m%d"):
-      return("its your birthday")
+      return True
+     else:
+        return False
 
      
-a = Person("johnny smith",date(2026,11,4))
-print(a.is_birthday())
