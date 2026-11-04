@@ -8,6 +8,8 @@ class Person:
 
     """
     def __init__(self, name:str,birth:date):
+     """
+     creates a person,with a name and a date of birth"""
     
      self.name =  name
      self.birth= birth
@@ -32,9 +34,6 @@ class Person:
 
     def is_birthday(self):
      today=date.today()
-     if today.strftime("%Y%m%d") == self.birth.strftime("%Y%m%d"):
-      return True
-     else:
-        return False
+     return today.month == self.birth.month and today.day == self.birth.day
 
-     
+
