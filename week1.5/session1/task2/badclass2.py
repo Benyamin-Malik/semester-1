@@ -14,8 +14,6 @@ class Point:
         """
         x = x_coordinate
         y = y_coordinate
-
-
 p = Point(1.5, 2.0)
 print(p.x)
 print(p.y)

@@ -6,12 +6,12 @@ from datetime import datetime
 
 @dataclass
 class Quake:
-    """
+ """
     Details of a single earthquake.
     """
 
-    when: datetime
-    longitude: float
-    latitude: float
-    depth: float
-    magnitude: float
+when: datetime
+longitude: float
+atitude: float
+depth: float
+magnitude: float
