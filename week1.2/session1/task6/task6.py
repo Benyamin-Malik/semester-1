@@ -9,5 +9,13 @@ from pprint import pprint
 
 # Display details of one album recorded by a specific artist
 
-Jackson_Songs =["Bad","Thriller","Dont stop till you get enough"]
-print(Jackson_Songs)
+Jackson_Michael=["Bad","Thriller","Dont stop till you get enough"]
+Withers_Bill=["Lean on me ","Just the two of us","Aint no sunshine"]
+Houston_Whitney=["I will always love you","I want to dance with somebody","saving all of my love for you"]
+
+Singers = {"Michael_Jackson": Jackson_Michael,
+            "Bill_Withers": Withers_Bill,
+            "Whitney_Houston": Houston_Whitney
+}          
+
+pprint(Singers)
