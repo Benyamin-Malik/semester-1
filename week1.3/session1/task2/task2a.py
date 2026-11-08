@@ -5,6 +5,9 @@ while True:
     k=k*2
     k<200
     print(k)
+
+    if k>200 :
+        break
     
     
    
