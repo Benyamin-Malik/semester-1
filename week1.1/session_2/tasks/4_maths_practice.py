@@ -2,11 +2,11 @@
 
 # 1: (4 x 8) x 6
 Answer1=int((4*8)*6)
-print({Answer1})
+print(Answer1)
 
 # 2: (2^3) / (8/3)
 Answer2=int(((2**3)/(8/3)))
-print({Answer2})
+print(Answer2)
 
 
 

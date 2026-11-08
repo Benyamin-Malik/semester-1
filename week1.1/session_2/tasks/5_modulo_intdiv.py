@@ -2,7 +2,7 @@
 # it needs to convert the minutes late into days, hours and minutes
 # all file handling has been done - the section you need to edit is marked by comments below
 
-with open("_data/lateness_data.csv") as f:
+with open("/lateness_data.csv") as f:
     data = f.readlines()
 
 data = [line.strip().split(",") for line in data]
@@ -13,6 +13,7 @@ for row in data:
 
     # minutes_late is the number of minutes late a submission was made
     minutes_late = int(row[1])
+    print(minutes_late)
 
     # for each of these, we need to work out how to turn 'minutes_late' into the right value
     # for example: if minutes_late is 2000, then days = 1, hours = 9, minutes = 20
