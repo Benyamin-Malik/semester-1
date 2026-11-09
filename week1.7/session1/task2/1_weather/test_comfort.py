@@ -7,19 +7,20 @@
 
 from weather import comfort_level
 
-from weather import comfort_level
+
 
 def test_cold():
-    assert comfort_level(14.5)=="COLD"
+    assert comfort_level(15)=="COLD"
     assert comfort_level(-1)=="COLD"
 
 def test_ok():
-    assert comfort_level(15)=="OK"
+    assert comfort_level(16)=="OK"
     assert comfort_level(25)=="OK"
-    assert comfort_level(12.5)=="OK"
+    assert comfort_level(18.4)=="OK"
 
 def test_hot():
     assert comfort_level(25.1)=="HOT"
     assert comfort_level(100.6)=="HOT"
+    
 
     

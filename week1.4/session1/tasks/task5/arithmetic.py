@@ -7,29 +7,32 @@
 
 def addition(num1, num2):
     return num1 + num2
-result=addition(3,4)
-print("7")
+result_add=addition(3,4)
+print(result)
 
 
 def subtraction(num1, num2):
     return num1 - num2
-result=addition(3,4)
-print("-1")
+result_subtraction=subtraction(3,4)
+print(result_subtraction)
 
 
 def multiplication(num1, num2):
     return num1 * num2
-result=addition(3,4)
-print("12")
+result_multiplication=multiplication(3,4)
+print(result_multiplication)
 
 
-#def division(num1, num2):
-   # if num2 == 0:
- #       return "Error: cannot divide by zero"
-  #  else:
-   #     return num1 / num2
+def division(num1, num2):
+ if num2 == 0:
+   return "Error: cannot divide by zero"
+ else:
+   return num1 / num2
 #
-
+result_divison=division(5,4)
+print(result_divison)
+result_division_error=division(4,0)
+print(result_division_error)
 #ef run_program():
     # Ask user for two numbers
    # num1 = float(input("Enter the first number: "))

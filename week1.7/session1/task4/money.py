@@ -23,12 +23,14 @@ class Money:
 
         self.pounds = pounds
         self.pence = pence
-
+   
     def __str__(self):
         """
         Returns a string representation of this Money.
         """
+    
         return f"£{self.pounds}.{self.pence:02d}"
+
 
     def __add__(self, other):
         """
