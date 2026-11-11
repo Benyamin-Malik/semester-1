@@ -13,4 +13,4 @@ print(f"cherry is displayed {cherry_count} timee")
 # Display how many times "strawberry" occurs
 strawberry_count=fruit.count("srawberry")
 print(f" strawberry is displayed {strawberry_count} times")
-# Unpack tuple into variables
+
