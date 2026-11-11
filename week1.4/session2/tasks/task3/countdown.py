@@ -15,8 +15,10 @@ def countdown(n):
     """
 
     # Complete your code here
-    # base case
 
+    for i in range(0,n):
+     print(n)
+     n=n-1
     # recursive case
 
 
