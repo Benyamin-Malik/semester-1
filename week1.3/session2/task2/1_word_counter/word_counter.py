@@ -4,6 +4,14 @@
 # You can use any of the .txt files to test this - or even make your own.
 
 # open and read the file
+with open("week1.3/session2/task2/1_word_counter/glasses.txt") as file :
+ lines= file.readlines()
+ cleaned_lines= [line.strip().split(",") for line in lines]
+print(cleaned_lines)
+for word in lines:
+    word_count=len(word)
+
+print(word_count)
 
 # calculate the number of words
 # hint: you could use .split() to break up by spaces
