@@ -30,7 +30,8 @@ class Point:
         Returns distance of this Point from another Point.
         """
         return math.hypot(self.x - p.x, self.y - p.y)
-
+    def __str__(self):
+         return (f"this is a point with co-ordinates({self.x},{self.y})")
     # Implement a __str__() method here
 
 
@@ -61,5 +62,7 @@ class Circle:
         Returns the perimeter of this Circle.
         """
         return 2.0 * math.pi * self.radius
+    def __str__(self):
+        return (f"circle with centre {self.centre} and radius {self.radius}")
 
     # Implement a __str__() method here
