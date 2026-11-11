@@ -21,8 +21,8 @@ def mystery_func(string):
             lower += 1
     return (upper, lower)
 """
-    this function checks each letter in astring for whether it is upper case or lowercase.it returns a 2 numbers,
-    the first reprersent the upper case letters and the 2nd represent the number of lowercase numbers
+    this function checks each letter in astring for whether it is upper case or lowercase.it returns 2 numbers,
+    the first reprersent the number upper case letters and the 2nd represent the number of lowercase numbers
  """
 
 # testing
