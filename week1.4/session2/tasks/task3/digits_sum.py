@@ -18,7 +18,10 @@ def digits_sum(number):
         int: The sum of the digits of the input integer.
     """
     # complete your code here
-    # base case
+    number_str=str(number)
+    split_number_str=number_str.split()
+    print(split_number_str)
+    # base case"
 
     # recursive case
 
