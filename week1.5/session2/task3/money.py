@@ -10,6 +10,18 @@ class Money:
         Creates a Money object, given the number of pounds and pence.
         """
         # Add validation code here, to check that
+        if not isinstance(pounds,int):
+            raise TypeError("Pound is not a whole number")
+
+        if pound >0 :
+            raise ValueError("Pound value greater than zero")
+
+        if not isinstance(pence,int):
+            raise TypeError("pence is not a whole number")
+        
+        if pence >0 and pence <99:
+             raise ValueError("pence value greater than zero and less than 99")
+
         # - the pounds parameter is an integer
         # - pounds is not negative
         # - the pence parameter is an integer
@@ -22,8 +34,10 @@ class Money:
     def __str__(self):
         """
         Returns a string representation of this Money.
+        
         """
-        # Add code here to return an appropriate string representation
+              
+        return (f"The total amount is £{self.pounds} and {self.pence} pence")
         # Use the currency symbol for British Pounds Sterling
         # Represent pence with a leading zero if needed (e.g. '05')
 
