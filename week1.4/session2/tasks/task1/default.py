@@ -7,6 +7,7 @@ def greeting(name='John'):
 
 # Check if correct output is produced
 
-greeting(input("what is your name"))
+
 
 # write a second test by passing a name to the function
+greeting("Bob")
