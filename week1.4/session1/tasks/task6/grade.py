@@ -4,9 +4,8 @@
 # Your task is to write the body of the function based on the
 # details in the docstring
 
-
-def calculate_grade(marks):
-    """
+def calculate_grade(marks):  
+  """
     This function returns a grade based on the provided mark, according to
     the following grading scale:
 
@@ -32,9 +31,30 @@ def calculate_grade(marks):
         None: If `marks` is not a valid integer or is outside the allowed
               range (greater than 100 or negative)
     """
-    pass
 
-    return grade
+  grade=None
+  if not isinstance(marks,int): 
+    grade=None
+ 
+  
+  if marks <50 and marks >=0 :
+       grade="F"
+  elif marks >=50  and marks <60 :
+      grade="D"
+  elif marks >=60 and marks <70 :
+      grade="C"
+  elif marks >=70  and marks <80 :
+      grade="B"
+  elif marks >=80  and marks <=100 :
+      grade="A"
+  
+   
+  return grade
+
+
+      
+
+    
 
 
 # Check if the following tests produce the correct output
