@@ -9,43 +9,18 @@
 #  - Displays the area of the circle
 #  - Displays the perimeter of the circle
 
-import math
+
+from geometry import Point
+from geometry import Circle
 
 
-class Point:
-    """
-    A point in 2D space.
-    """
 
-    def __init__(self, x, y):
-        """
-        Create a Point with the given x and y coordinates.
-        """
-        self.x = x
-        self.y = y
 
-class Circle :
-    """
-    This creates a circle with a radius and 2 co-ordinates at its centre.
-    """
-
-    def __init__(self,radius,x=0,y=0,):
-    
-   
-     self.radius=radius
-     self.centre=Point(x,y)
-
-    def circ_area(self):
-       """
-       works out the area of the circle
-       """
-
-       return (math.pi *(self.radius*self.radius))
-
-    def circ_perimeter(self):
-       """
-              works out the perimeter of the circle
-       """
-       return(math.pi*(2*self.radius))
+p1=Point(1,2)
+c1=Circle(10,p1)
+c1_area= c1.circ_area()
+c1_perimeter=c1.circ_perimeter()
+print(c1_perimeter)
+print(c1_area)
 
 
