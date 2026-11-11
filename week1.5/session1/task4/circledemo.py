@@ -25,18 +25,27 @@ class Point:
         self.y = y
 
 class Circle :
+    """
+    This creates a circle with a radius and 2 co-ordinates at its centre.
+    """
 
-    def __init__(self,x,y,radius):
+    def __init__(self,radius,x=0,y=0,):
     
    
      self.radius=radius
      self.centre=Point(x,y)
 
     def circ_area(self):
+       """
+       works out the area of the circle
+       """
 
-       return (3.14159 *(self.radius*self.radius))
+       return (math.pi *(self.radius*self.radius))
 
     def circ_perimeter(self):
-       return(3.141592*(2*self.radius))
+       """
+              works out the perimeter of the circle
+       """
+       return(math.pi*(2*self.radius))
 
 
