@@ -1,7 +1,30 @@
 # Week 4, Session 2: Task 2
 
 def most_frequent_string(votes):
-    """
+    highest_count=0
+    mode_item=None
+
+    if not  votes:
+      return (None,None)
+    
+    for item in set(votes):
+     item_count= votes.count(item)
+     if highest_count < item_count:
+      mode_item=item
+     highest_count= item_count
+
+    return (mode_item,highest_count)
+
+    
+
+    
+    
+
+   
+
+
+    
+"""
     This function identifies the string that appears most frequently
     (highest count) in the votes argument and returns it along with the count
     of its occurrences. It assumes there is a single most frequent string
@@ -24,6 +47,7 @@ def most_frequent_string(votes):
 
 fruit = ['date', 'apple', 'cherry', 'date', 'apple', 'apple', 'elderberry',
          'date', 'elderberry', 'elderberry', 'date', 'banana']
+# expected result for fruit[]=[4,3,1,3,1]
 names = ['Jesy', 'Leigh-Anne', 'Perrie', 'Leigh-Anne', 'Jade',
          'Leigh-Anne', 'Perrie', 'Leigh-Anne', 'Jesy', 'Jade',
          'Leigh-Anne', 'Leigh-Anne', 'Leigh-Anne', 'Leigh-Anne',
