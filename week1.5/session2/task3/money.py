@@ -13,14 +13,14 @@ class Money:
         if not isinstance(pounds,int):
             raise TypeError("Pound is not a whole number")
 
-        if pound >0 :
-            raise ValueError("Pound value greater than zero")
+        if pounds <0 :
+            raise ValueError("Pound value less than zero")
 
         if not isinstance(pence,int):
             raise TypeError("pence is not a whole number")
         
-        if pence >0 and pence <99:
-             raise ValueError("pence value greater than zero and less than 99")
+        if pence <0 and pence >99:
+             raise ValueError("pence value less than zero and greater than 99")
 
         # - the pounds parameter is an integer
         # - pounds is not negative
@@ -45,6 +45,7 @@ class Money:
         """
         Adds this Money to another Money, returning the total.
         """
-        # Add code here to check that parameter 'other' is a Money object,
-        # add self to other, then return the sum as a new Money object
-        # (see README for hints and tips)
+        pounds = self.pounds + other.pounds
+        pence = self.pence +   other.pence
+
+        return Money(pounds, pence)
