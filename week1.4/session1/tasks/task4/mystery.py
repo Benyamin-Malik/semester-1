@@ -21,8 +21,12 @@ def mystery_func(string):
             lower += 1
     return (upper, lower)
 """
-    this function checks each letter in astring for whether it is upper case or lowercase.it returns 2 numbers,
-    the first reprersent the number upper case letters and the 2nd represent the number of lowercase numbers
+    this function checks each letter in a string for whether it is upper case or lowercase.it returns 2 numbers,
+    the first reprersent the number of upper case letters and the 2nd represent the number of lowercase numbers.
+
+    args string:string to check
+
+    returns tuple with 2 values representing the number of lower and uppercase characters respectivly,
  """
 
 # testing
